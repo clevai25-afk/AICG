@@ -1,43 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AI Course Generator - Learn AI Development</title>
+  <link rel="shortcut icon" href="assets/images/logo/favourite_icon_1.svg">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+  <div class="page_wrapper">
+    <div class="backtotop">
+      <a href="#" class="scroll">
+        <i class="far fa-arrow-up"></i>
+      </a>
+    </div>
+    <main class="page_content">
+      <section class="details_section course_details_section">
+        <div class="container">
+          <div class="row">
+            <div class="col col-lg-8 order-lg-last">
+              <div class="ps-lg-5">
+                <div class="section_heading">
+                  <h2 class="heading_text">Course Overview</h2>
+                </div>
+                <div class="intro_video mb-4">
+                  <div class="video_wrap">
+                    <img src="assets/images/video/video_poster_2.jpg" alt="AI Course Generator - Learn AI Development">
+                    <a class="video_play_btn popup_video" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+                      <span class="icon"><i class="fas fa-play"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <p>
+                  Welcome to our comprehensive AI development course. This program is designed to take you from the
+                  basics to advanced concepts in artificial intelligence. You'll learn essential programming skills,
+                  machine learning fundamentals, and practical AI applications.
+                </p>
+                <p>
+                  Our hands-on approach ensures you gain practical experience while building real-world AI projects.
+                  Join thousands of successful students who have transformed their careers through our program.
+                </p>
+              </div>
+            </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+            <div class="col col-lg-4">
+              <div class="accordion style_2" id="corse_details_accordion">
+                <div class="accordion-item">
+                  <div class="accordion-button" role="button" data-bs-toggle="collapse" data-bs-target="#collapse_one"
+                    aria-expanded="true">
+                    Module 1: Getting Started with Python
+                  </div>
+                  <div id="collapse_one" class="accordion-collapse collapse show"
+                    data-bs-parent="#corse_details_accordion">
+                    <div class="accordion-body">
+                      <p class="completed_progress"><span>1/4</span> Completed</p>
+                      <div class="checkbox_item">
+                        <input id="checkbox_1_1" type="checkbox" checked>
+                        <label for="checkbox_1_1">1. Introduction to Python Programming</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_1_2" type="checkbox">
+                        <label for="checkbox_1_2">2. Data Types and Variables</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_1_3" type="checkbox">
+                        <label for="checkbox_1_3">3. Basic Operations and Functions</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_1_4" type="checkbox">
+                        <label for="checkbox_1_4">4. Control Flow and Logic</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse_two" aria-expanded="false">
+                    Module 2: Advanced Python Concepts
+                  </div>
+                  <div id="collapse_two" class="accordion-collapse collapse" data-bs-parent="#corse_details_accordion">
+                    <div class="accordion-body">
+                      <p class="completed_progress"><span>1/4</span> Completed</p>
+                      <div class="checkbox_item">
+                        <input id="checkbox_2_1" type="checkbox" checked>
+                        <label for="checkbox_2_1">1. Object-Oriented Programming</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_2_2" type="checkbox">
+                        <label for="checkbox_2_2">2. Error Handling and Debugging</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_2_3" type="checkbox">
+                        <label for="checkbox_2_3">3. Working with Libraries</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_2_4" type="checkbox">
+                        <label for="checkbox_2_4">4. File Operations and Data Handling</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse_three" aria-expanded="false">
+                    Module 3: Data Structures and Algorithms
+                  </div>
+                  <div id="collapse_three" class="accordion-collapse collapse"
+                    data-bs-parent="#corse_details_accordion">
+                    <div class="accordion-body">
+                      <p class="completed_progress"><span>1/4</span> Completed</p>
+                      <div class="checkbox_item">
+                        <input id="checkbox_3_1" type="checkbox" checked>
+                        <label for="checkbox_3_1">1. Arrays and Lists</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_3_2" type="checkbox">
+                        <label for="checkbox_3_2">2. Dictionaries and Sets</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_3_3" type="checkbox">
+                        <label for="checkbox_3_3">3. Searching and Sorting</label>
+                      </div>
+                      <div class="checkbox_item">
+                        <input id="checkbox_3_4" type="checkbox">
+                        <label for="checkbox_3_4">4. Algorithm Optimization</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
